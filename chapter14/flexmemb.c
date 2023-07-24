@@ -22,6 +22,7 @@ int main(void)
     pf1->average=tot/n;
     showFlex(pf1);
     free(pf1);
+    return 0;
 }
 void showFlex(const struct flex*p)
 {
